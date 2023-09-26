@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  margin-left: 100px;
+}
+.img2 {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.link1 {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.tulis1 {
+  margin-left: 100px;
+  font-size: 10px;
+  word-spacing: 1px;
+  font-weight: 500;
+}
+#nav {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  background-color: white;
+  /* text-align: center; */
+  border-bottom: 1px solid gainsboro;
+  height: 65px;
+  position: static;
+}
+.hamburger {
+  background-color: black;
+  display: block;
+  position: absolute;
+}
+
+#link a:hover {
+  background-color: black;
+  color: white;
+}
+#nav #link {
+  display: none;
+}
+
+div a {
+  text-decoration: none;
+  color: black;
+}
+
+burger {
+  margin-left: 10px;
+}
+
+.blue {
+  color: #4285f4;
+}
+
+.red {
+  color: #ea4335;
+}
+
+.green {
+  color: #34a853;
+}
+
+.yellow {
+  color: #f9ab00;
+}
+
+#text1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  line-height: 30px;
+  word-spacing: -2px;
+}
+
+#gambar1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+#make {
+  text-align: center;
+}
+.gambar1 {
+  width: 250px;
+  height: 180px;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 70px;
+}
+
+#caption1 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 580;
+}
+
+#caption2 {
+  font-size: 14px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+#make {
+  margin-top: 30px;
+  padding: 80px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  background-color: white;
+}
+
+#button1 {
+  margin-top: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: white;
+  height: 200px;
+}
+
+.buttonatas {
+  background-color: whitesmoke;
+  color: grey;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: none;
+  border-color: whitesmoke;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.buttonbawah {
+  background-color: whitesmoke;
+  color: grey;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: none;
+  border-color: whitesmoke;
+  font-size: 15px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+#about {
+  background-color: #f4f3ef;
+  position: static;
+  height: 400px;
+  padding: 5px;
+}
+
+.textabout {
+  font-size: 80px;
+  margin-top: -20px;
+  line-height: 60px;
+}
+
+.textisiabout {
+  margin-top: 50px;
+  text-align: left;
+  width: 250px;
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+.textmeet {
+  font-size: 30px;
+  text-align: left;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.textourteam {
+  font-size: 80px;
+  text-align: center;
+  font-weight: 450;
+}
+
+#ourteam {
+  line-height: 30px;
+  text-align: right;
+  padding: 0px;
+}
+
+.imgourteam {
+  width: 300px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+#text1 {
+  background-color: #f4f3ef;
+}
+
+.caption3 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+.caption4 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-left: 100px;
+  font-size: 10px;
+  margin-top: -10px;
+}
+
+#galery {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: whitesmoke;
+  padding: 20px;
+  justify-content: center;
+}
+
+.imgcatalog {
+  width: 170px;
+  height: 170px;
+}
+
+.judulgalerry {
+  font-size: 80px;
+  font-weight: 500;
+  text-align: right;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+#contactus {
+  text-align: center;
+  padding: 80px;
+  background-color: gainsboro;
+  margin-top: 300px;
+  height: 150px;
+  /* border-top: 1px solid grey; */
+}
+
+.textcontact {
+  margin-top: -40px;
+  font-weight: 600;
+}
+
+.imgig {
+  width: 60px;
+  height: 45px;
+  margin-left: -35px;
+}
+.imgfb {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.imgwa {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+#logososmed {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+#contactuswa {
+  text-align: center;
+  padding: 50px;
+  background-color: gainsboro;
+  margin-top: px;
+  height: 150px;
+}
+
+.textcontactus {
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+#footer {
+  background-color: gainsboro;
+  height: 250px;
+  padding: 10px;
+  /* border-top:0.2px solid grey; */
+}
+
+.logofooter {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-top: 100px;
+  display: block;
+}
+
+#ftf1 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+#ftf2 {
+  text-align: center;
+  font-size: 8px;
+}
+
+#copyright {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 10px;
+}
