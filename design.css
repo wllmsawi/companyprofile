@@ -11,6 +11,15 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100vw;
+  min-height: 100vh;
+  /* justify-content: */
+}
+
 .img {
   width: 50px;
   height: 50px;
@@ -41,7 +50,7 @@ html {
   /* text-align: center; */
   border-bottom: 1px solid gainsboro;
   height: 65px;
-  position: static;
+  position: relative;
 }
 .hamburger {
   background-color: black;
@@ -55,6 +64,14 @@ html {
 }
 #nav #link {
   display: none;
+}
+
+#nav #link a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
 div a {
@@ -97,8 +114,8 @@ burger {
   font-family: "Open Sans", sans-serif;
 }
 
-#make {
-  text-align: center;
+.bring {
+  font-size: 30px;
 }
 .gambar1 {
   width: 250px;
@@ -123,10 +140,11 @@ burger {
 #make {
   margin-top: 30px;
   padding: 80px;
-  font-size: 30px;
+
   letter-spacing: 2px;
   line-height: 30px;
   background-color: white;
+  text-align: center;
 }
 
 #button1 {
@@ -165,6 +183,7 @@ burger {
 #about {
   background-color: #f4f3ef;
   position: static;
+  width: 100%;
   height: 400px;
   padding: 5px;
 }
@@ -178,9 +197,9 @@ burger {
 .textisiabout {
   margin-top: 50px;
   text-align: left;
-  width: 250px;
+  width: 300px;
   margin-left: 50px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .textmeet {
@@ -199,13 +218,13 @@ burger {
 #ourteam {
   line-height: 30px;
   text-align: right;
-  padding: 0px;
 }
 
 .imgourteam {
   width: 300px;
   height: 400px;
   margin-top: 20px;
+  margin-left: 60px;
 }
 
 #text1 {
@@ -242,12 +261,14 @@ burger {
   height: 170px;
 }
 
+#judugal {
+  background-color: whitesmoke;
+}
 .judulgalerry {
   font-size: 80px;
   font-weight: 500;
   text-align: right;
   padding: 20px;
-  background-color: whitesmoke;
 }
 
 #contactus {
@@ -255,7 +276,7 @@ burger {
   padding: 80px;
   background-color: gainsboro;
   margin-top: 300px;
-  height: 150px;
+  width: 100%;
   /* border-top: 1px solid grey; */
 }
 
@@ -294,7 +315,7 @@ burger {
   padding: 50px;
   background-color: gainsboro;
   margin-top: px;
-  height: 150px;
+  width: 100%;
 }
 
 .textcontactus {
@@ -304,8 +325,10 @@ burger {
 
 #footer {
   background-color: gainsboro;
-  height: 280px;
+  height: 300px;
   padding: 10px;
+  width: 100%;
+
   /* border-top:0.2px solid grey; */
 }
 
@@ -332,4 +355,102 @@ burger {
   margin-top: 10px;
   text-align: center;
   font-size: 10px;
+}
+
+@media only screen and (min-width: 1080px) {
+  #logososmed {
+    margin-right: 50px;
+    justify-content: center;
+  }
+  .textmeet {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 220px;
+  }
+  .textourteam {
+    font-size: 80px;
+    text-align: center;
+    font-weight: 450;
+    margin-top: 10px;
+  }
+  .imgourteam {
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .caption3 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-left: 100px;
+  }
+
+  .caption4 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin-left: 100px;
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  #nav {
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+  }
+
+  #text1 {
+    width: 100%;
+  }
+
+  #make b {
+    width: 100%;
+    font-size: 100px;
+    line-height: 80px;
+  }
+  #about {
+    width: 100%;
+  }
+
+  .textisiabout {
+    font-size: 30px;
+    text-align: center;
+    width: 90%;
+  }
+
+  #galery {
+    width: 100%;
+    height: auto;
+  }
+
+  #judugal {
+    width: 100%;
+  }
+
+  #ourteam {
+    text-align: center;
+  }
+  .judulgalerry {
+    text-align: right;
+    margin-top: 100px;
+  }
+
+  .caption3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .caption4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contactus,
+  #contactuswa,
+  #footer {
+    width: 100%;
+  }
 }
